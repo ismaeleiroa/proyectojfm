@@ -1,0 +1,168 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-nav a{
+    color: #054A91;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: 100px;
+}
+
+.navbar-nav a:hover{
+    color: #81A4CD;
+}
+.presentation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.doctor1{
+    width: 600px;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+
+.especialidades-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.especialidades-container img{
+    width: 300px;
+}
+
+
+
+h3{
+    text-align: center;
+    font-size: 4em;
+    color: #054A91;
+    margin-top: 20px;
+}
+
+.about-cp{
+    font-size: 22px;
+    font-weight: bold;
+    color: #054A91;  
+    background-color: #e0e7f0;
+    padding: 50px;
+
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: #576ca8;
+    }
+  }
+
+
+
+.texto {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    :hover
+}
+
+.Contacto{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: auto;
+    
+}
+
+.contenedor h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-label{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+    color: #153e90;
+}
+
+.text-label input[type="text"],
+.text-label input[type="email"] {
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.textarea{
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    padding: 7px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    padding-top: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    background-color: #153e90;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #81A4CD;
+    color: #f8f1f1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+    margin: 24px 22px 16px 39px;
+}
+  
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons a i{
+    color: black;
+   
+}
+
+
